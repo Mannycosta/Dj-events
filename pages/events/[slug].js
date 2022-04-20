@@ -1,7 +1,9 @@
-export default function MainEventPage() {
+import Layout from "../../components/Layout";
+
+export default function EventPage() {
 	return (
-		<div>
-			<h1>Main event page</h1>
-		</div>
+		<Layout>
+			<h1>Event page</h1>
+		</Layout>
 	);
 }
